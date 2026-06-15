@@ -1,0 +1,24 @@
+/* Only childen */
+.container > p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container > ul{
+    list-style: none;
+}
+.container > a{
+    color: red;
+}
+/* Sibling */   
+/* Get the immidiate sibling link after h1 */
+.container h1 + a{
+    color: green;
+    font-weight: bold;
+}
+/* Get all links that are siblings that come after h1 */
+.container h1 ~ a{
+    color: purple;
+}
+.container > ul ~ div{
+    background: blue;
+}
