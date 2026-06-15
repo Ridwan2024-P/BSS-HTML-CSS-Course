@@ -21,7 +21,7 @@ ul{
     list-style: none;
 }
 img{
-    max-width: 100;
+    max-width: 100%;
 }
 /* Utility Classes */
 .bg-primary{
@@ -74,6 +74,26 @@ img{
     line-height: 1.4;
     font-weight: normal;
 }
+
+/* Gallery */
+.gallery-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-radius: 10px;
+}
+.gallery-item img{
+    border-radius: 10px;
+} 
+
+.gallery-item {
+  width: calc(33.333% - 20px);
+  border-radius: 10px;
+}
+.gallery-item:hover{
+    opacity: 0.9;
+}
 @media(max-width:768px){
     .header .header-flex{
         flex-direction: column;
@@ -81,5 +101,8 @@ img{
     }
     .hero h2{
         font-size: 1.8rem;
+    }
+    .gallery-item{
+         width: calc(50% - 20px);
     }
 }
