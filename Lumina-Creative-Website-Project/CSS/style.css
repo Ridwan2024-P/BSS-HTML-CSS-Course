@@ -17,6 +17,10 @@ ul{
 img{
     max-width: 100;
 }
+/* Utility Classes */
+.bg-primary{
+    background: #fcf5e9;
+}
 /* Container */
 .container{
     max-width: 1100px;
@@ -51,9 +55,25 @@ img{
     background: #fcf5e9;
     font-weight: 600
 }
+/* Hero */
+.hero{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h2{
+    font-size: 3rem;
+    line-height: 1.4;
+    font-weight: normal;
+}
 @media(max-width:768px){
     .header .header-flex{
         flex-direction: column;
         gap: 1.5rem;
+    }
+    .hero h2{
+        font-size: 1.8rem;
     }
 }
