@@ -27,6 +27,11 @@ img{
 .bg-primary{
     background:var(--primary-color) ;
 }
+.section-heading{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom:40px ;
+}
 /* Container */
 .container{
     max-width: var(--container-normal);
@@ -116,10 +121,35 @@ img{
 .footer a{
     margin: 0.2rem;
 }
+/* services */
+.services{
+    background: #333;
+    color: #fff;
+    padding: 3rem 0 4rem;
+}
+.services-flex{
+    display: flex;
+    gap: 2rem;
+}
+.service-item h4{
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+}
+/* Team */
+.team{
+    padding: 3rem 0 4rem;
+}
+.team-flex{
+    display: flex;
+    gap: 1.4rem;
+}
+.team img{
+    border-radius: 10px;
+}
 
 @media(max-width:768px){
     .header .header-flex,
-    .footer .footer-flex{
+    .footer .footer-flex,.services-flex .services,.team .team-flex{
         flex-direction: column;
         gap: 1.5rem;
     }
