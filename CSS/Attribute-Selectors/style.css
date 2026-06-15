@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+input[type='text']{
+    background-color: blue;
+    font-size: 18px;
+}
+input[type='text'][name='first-name']{
+    background-color: rgb(109, 72, 9);
+    font-size: 18px;
+}
+input[required]{
+    border-color: red;
+}
+button[type='submit']{
+    background: darkblue;
+    color: aliceblue;
+}
+a[href^='#']{
+    color: yellow;
+}
+a[href$='.com']{
+    color: lightblue;
+}
+a[href*='traversy']{
+    text-decoration: underline;
+}
