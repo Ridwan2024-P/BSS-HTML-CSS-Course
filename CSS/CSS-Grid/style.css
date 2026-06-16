@@ -22,4 +22,12 @@ body{
   grid-template-columns: 1fr 2fr 3fr;
   grid-auto-rows: 4fr;
   gap: 1rem;
+  /* justify-content: space-evenly;
+  justify-items: start; */
+  /* align-items: center;
+   */
+   /* align-items: center;
+    
+   */
+   place-items:start;
 }
