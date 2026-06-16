@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial',sans-serif;
+}
+/* .container{
+    max-width: 600px;
+    margin: 30px auto;
+}
+.container h1,
+.container h2,
+.container p{
+    color: red;
+}
+
+.container :is(h1,h2,p){
+    color: rebeccapurple;
+}
+a :is(:hover, :focus){
+    background-color: pink;
+}
+.container :where(h1,h2,h3){
+    color: antiquewhite;
+} */
+.container :has(h1,span){
+    color: red;
+}
+h1:has( + h2){
+    color: blue;
+}
