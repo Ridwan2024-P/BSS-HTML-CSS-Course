@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 600px;
     margin:30px auto ;
     background: #f4f4f4;
 
@@ -12,22 +12,13 @@ body{
     background: coral;
     border: 1px solid #333;
     padding: 1rem;
-    /* margin: 20px auto; */
-    text-align: center;
+    
 }
 .item-grid{
     display: grid;
   background: #f4f4f4;
-  grid-template-rows:1fr 2fr 3fr;
-  grid-template-columns: 1fr 2fr 3fr;
-  grid-auto-rows: 4fr;
-  gap: 1rem;
-  /* justify-content: space-evenly;
-  justify-items: start; */
-  /* align-items: center;
-   */
-   /* align-items: center;
-    
-   */
-   place-items:start;
+  
+  grid-template-columns:repeat(auto-fill, minmax(100px, 1fr))
+ 
+
 }
