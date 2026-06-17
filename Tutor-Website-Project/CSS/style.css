@@ -55,6 +55,13 @@ img{
     color: #fff;
     border-color: #fff;
 }
+/* Text classes*/
+.text-primary{
+    color: var(--primary-color);
+}
+.text-secondary{
+    color: var(--secondary-color);
+}
 .section{
     margin: 4rem 0;
 }
@@ -293,6 +300,20 @@ img{
 .info-left{
     width: 50%;
 }
+/* Takeaways */
+.takeaway-cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 2rem;
+    padding: 1.5rem;
+}
+.takeaway-cards .card{
+    flex-direction: row;
+    text-align: left;
+}
+.takeaway-cards .card i{
+    margin-right: 1rem;
+}
 /* Media Queries */
 @media(max-width:1200px){
     .hero .hero-flex{
@@ -325,6 +346,9 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
     .chapter-cards{
+        grid-template-columns: 1fr;
+    }
+    .takeaway-cards{
         grid-template-columns: 1fr;
     }
 }
