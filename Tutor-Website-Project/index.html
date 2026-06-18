@@ -12,8 +12,9 @@
     <title>Welcome To Tutor</title>
 </head>
 <body>
-    <nav class="navbar ">
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
         <div class="navbar-flex container">
+          <a href="/" aria-label="Logo Home Link"></a>
             <img src="Images/logo.svg" alt="Tutor">
             <div class="main-menu-items">
                 <ul class="main-menu-list">
@@ -23,27 +24,27 @@
                     <li><a href="#takeways">Takeaways</a></li>
                     <li><a href="#author">Author</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="http://www.facebook.com" target="_blank" aria-label="Follow Us On Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="http://www.twitter.com" target="_blank" aria-label="Follow Us On twitter"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul> 
             </div>
             <!-- Mobile Menu items -->
              <div class="mobile-menu">
                 <!-- Hamburger button -->
-                 <div class="mobile-menu-toggle">
+                 <div class="mobile-menu-toggle" role="button" aria-expanded="false" aria-controls="mobile-menu-item" aria-label="Open Mobile Menu" tabindex="0">
                     <i class="fas fa-bars fa-2x"></i>
                  </div>
                    <!-- Mobile Menu -->
-                    <div class="mobile-menu-items">
+                    <div id="mobile-menu-items" class="mobile-menu-items">
                       <ul class="mobile-menu-list">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#chapters">Chapters</a></li>
                         <li><a href="#summary">Summary</a></li>
                         <li><a href="#takeways">Takeaways</a></li>
                         <li><a href="#author">Author</a></li>
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="facebook.com" target="_blank"  aria-label="Follow Us On Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="twitter.com" target="_blank"  aria-label="Follow Us On Twitter"><i class="fa-brands fa-twitter"></i></a></li>
                     </ul> 
                 </div>
              </div>
@@ -359,20 +360,20 @@
         <div class="stats-content">
           <div class="stats-numbers">
             <div>
-              <h3>2000+</h3>
-              <p>Happy Users</p>
+              <h3 aria-label="stats-happy-users">2000+</h3>
+              <p id="Stats-happy-Users">Happy Users</p>
             </div>
             <div>
-              <h3>358</h3>
-              <p>Issues Solved</p>
+              <h3 aria-label="Stats-Issues-Solved">358</h3>
+              <p id="Stats-Issues-Solved">Issues Solved</p>
             </div>
             <div>
-              <h3>980</h3>
-              <p>Good Reviews</p>
+              <h3 aria-label="Stats-Good-Reviews">980</h3>
+              <p id="Stats-Good-Reviews">Good Reviews</p>
             </div>
             <div>
-              <h3>216</h3>
-              <p>Case Studies</p>
+              <h3 aria-label="Stats-Case_studies">216</h3>
+              <p id="Stats-Case-Studies">Case Studies</p>
             </div>
           </div>
           <p class="stats-text">
@@ -402,12 +403,12 @@
           <div class="container social-flex">
             <p>Follow us on social media for updates and news about our course.</p>
             <div class="social-icons">
-              <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
-              <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
-              <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-              <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-              <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a>
-              <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest fa-2x"></i></a>
+              <a href="https://www.facebook.com" target="_blank" aria-label="Follow Us On Facebook"><i class="fa-brands fa-facebook fa-2x"></i></a>
+              <a href="https://www.twitter.com" target="_blank" aria-label="Follow Us On Twitter"><i class="fa-brands fa-twitter fa-2x"></i></a>
+              <a href="https://www.instagram.com" target="_blank" aria-label="Follow Us On Instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
+              <a href="https://www.linkedin.com" target="_blank" aria-label="Follow Us On Linkedin"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+              <a href="https://www.youtube.com" target="_blank" aria-label="Follow Us On Youtube"><i class="fa-brands fa-youtube fa-2x"></i></a>
+              <a href="https://www.pinterest.com" target="_blank" aria-label="Follow Us On Pinterest"><i class="fa-brands fa-pinterest fa-2x"></i></a>
             </div>
           </div>
         </section>
