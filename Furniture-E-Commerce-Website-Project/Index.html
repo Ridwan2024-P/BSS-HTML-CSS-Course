@@ -52,13 +52,13 @@
                         <li class="navbar-menu-item"><a href="#" class="navbar-menu-link"></a>Shop</li>
                         <li class="navbar-menu-item"><a href="#" class="navbar-menu-link"></a>About</li>
                         <li class="navbar-menu-item"><a href="#" class="navbar-menu-link"></a>Contact</li>
-                            <ul class="navbar-menu-list">
-                                    <li class="navbar-menu-item-icon"><a href="#" class="navbar-menu-link"></a><img src="Images/Vector.png" alt="Icon"></li>
-                                    <li class="navbar-menu-item-icon"><a href="#" class="navbar-menu-link"></a><img src="Images/Vector (1).png" alt="icon"></li>
-                                    <li class="navbar-menu-item-icon"><a href="#" class="navbar-menu-link"></a><img src="Images/Vector (2).png" alt="icon"></li>
-                                    <li class="navbar-menu-item-icon"><a href="#" class="navbar-menu-link"></a><img src="Images/ant-design_shopping-cart-outlined.png" alt="icon"></i></li>
-                            </ul>  
-                      </ul> 
+                            <ul class=" navbar-menu-list-icon mobile-icons">
+                                <li><a href="#"><img src="Images/Vector.png" alt="icon"></a></li>
+                                <li><a href="#"><img src="Images/Vector (1).png" alt="icon"></a></li>
+                                <li><a href="#"><img src="Images/Vector (2).png" alt="icon"></a></li>
+                                <li><a href="#"><img src="Images/ant-design_shopping-cart-outlined.png" alt="icon"></a></li>
+                            </ul>
+                        </ul> 
                  </div>
             </div>    
         </div>
@@ -121,6 +121,242 @@
 
     </div>
 </section>
+<style>
+    .product__title{
+        text-align: center;
+        align-items: center;
+        padding: 32px 0px;
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 40px;
+        leading-trim: NONE;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;
+
+        
+       
+    }
+    .product__Cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 32px;
+       
+
+    }
+    .product__card{
+        width: 285;
+        height: 301;
+         background: rgba(244, 245, 247, 1);
+    }
+    .product__image-box{
+         position:relative;
+    }
+    .discount{
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:48px;
+    height:48px;
+    background:#E97171;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:16px;
+    font-weight:500;
+}
+.Product__content{
+    padding: 16px 16px;
+}
+.Product__content h2{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: start;
+    color:rgba(58, 58, 58, 1);
+    gap: 8px;
+
+}
+.Product__content p{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: start;
+    color:rgba(137, 137, 137, 1);
+    gap: 8px;
+
+}
+.price.new-price{
+    color: rgba(58, 58, 58, 1);
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: start;
+
+}
+
+.old-price{
+    color: rgba(176, 176, 176, 1);
+
+    font-size:16px;
+    text-decoration:line-through;
+    
+}
+.product__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button__product{
+    padding: 12px 84px;
+    color: rgba(184, 142, 47, 1);
+    background: #FFF;
+    border: 2px solid rgba(184, 142, 47, 1);
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+</style>
+
+<!-- Product -->
+ <section class="product">
+    <div class="product__container container">
+         <h2 class="product__title">Browse The Range</h2>
+         <div class="product__Cards">
+            <div class="product__card">
+                <div class=" product__image-box">
+                    <img src="Images/image 1.png" alt="">
+                     <div class="discount">-30%</div>
+                </div>
+                    <div class="Product__content">
+                        <h2>Syltherine</h2>
+                        <p class="desc">Stylish cafe chair</p>
+                    <div class="price">
+                        <span class="new-price">Rp 2.500.000</span>
+                        <span class="old-price">Rp 3.500.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product__card2">
+                <div class=" product__image-box">
+                    <img src="Images/image 1.png" alt="">
+                     <div class="discount">-30%</div>
+                </div>
+                    <div class="Product__content">
+                        <h2>Syltherine</h2>
+                        <p class="desc">Stylish cafe chair</p>
+                    <div class="price">
+                        <span class="new-price">Rp 2.500.000</span>
+                        <span class="old-price">Rp 3.500.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product__card">
+                <div class=" product__image-box">
+                    <img src="Images/image 3.png" alt="">
+                     <div class="discount">-30%</div>
+                </div>
+                    <div class="Product__content">
+                        <h2>Syltherine</h2>
+                        <p class="desc">Stylish cafe chair</p>
+                    <div class="price">
+                        <span class="new-price">Rp 2.500.000</span>
+                        <span class="old-price">Rp 3.500.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product__card">
+                <div class=" product__image-box">
+                    <img src="Images/image 4.png" alt="">
+                     <div class="discount">-30%</div>
+                </div>
+                    <div class="Product__content">
+                        <h2>Syltherine</h2>
+                        <p class="desc">Stylish cafe chair</p>
+                    <div class="price">
+                        <span class="new-price">Rp 2.500.000</span>
+                        <span class="old-price">Rp 3.500.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product__card">
+                <div class=" product__image-box">
+                    <img src="Images/image 4.png" alt="">
+                     <div class="discount">-30%</div>
+                </div>
+                    <div class="Product__content">
+                        <h2>Syltherine</h2>
+                        <p class="desc">Stylish cafe chair</p>
+                    <div class="price">
+                        <span class="new-price">Rp 2.500.000</span>
+                        <span class="old-price">Rp 3.500.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product__card">
+                <div class=" product__image-box">
+                    <img src="Images/image 4.png" alt="">
+                     <div class="discount">-30%</div>
+                </div>
+                    <div class="Product__content">
+                        <h2>Syltherine</h2>
+                        <p class="desc">Stylish cafe chair</p>
+                    <div class="price">
+                        <span class="new-price">Rp 2.500.000</span>
+                        <span class="old-price">Rp 3.500.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product__card">
+                <div class=" product__image-box">
+                    <img src="Images/image 4.png" alt="">
+                     <div class="discount">-30%</div>
+                </div>
+                    <div class="Product__content">
+                        <h2>Syltherine</h2>
+                        <p class="desc">Stylish cafe chair</p>
+                    <div class="price">
+                        <span class="new-price">Rp 2.500.000</span>
+                        <span class="old-price">Rp 3.500.000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product__card">
+                <div class=" product__image-box">
+                    <img src="Images/image 4.png" alt="">
+                     <div class="discount">-30%</div>
+                </div>
+                    <div class="Product__content">
+                        <h2>Syltherine</h2>
+                        <p class="desc">Stylish cafe chair</p>
+                    <div class="price">
+                        <span class="new-price">Rp 2.500.000</span>
+                        <span class="old-price">Rp 3.500.000</span>
+                    </div>
+                </div>
+            </div>  
+         </div> 
+            <div class="product__button">
+                 <button class="button__product">Show More</button>
+            </div>
+    </div>
+ </section>
+ 
  
 
     
