@@ -372,7 +372,7 @@ img{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: 100px;
-    gap: 15px;
+    gap: 16px;
     max-height: 780px;
 }
 
@@ -405,8 +405,6 @@ img{
     grid-row: 5/8 ;
     
 }
-
-
 .item6{
     grid-column: 8/11;
     grid-row: 2/5;
@@ -418,11 +416,11 @@ img{
 }
 
 .item8{
-    grid-column: 8/9;
+    grid-column: 8/10;
     grid-row: 5/9;
 }
 .item9{
-    grid-column: 9/ 12;
+    grid-column: 10/ 13;
     grid-row: 5 / 8;
 }
 
