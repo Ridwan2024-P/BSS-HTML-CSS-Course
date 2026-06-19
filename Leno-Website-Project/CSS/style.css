@@ -630,6 +630,12 @@ img{
      max-width: 600px;
         text-align: center;
     }
+
+    /* details */
+    .inner-header{
+        background: #000 url(../Images//header-background.jpg) center center/cover no-repeat;
+        padding: 10rem 2rem 6rem;
+    }
     
   
 }
