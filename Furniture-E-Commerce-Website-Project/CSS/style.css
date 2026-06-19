@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -34,7 +33,12 @@ img{
     display: none;
 }
 .navbar{
+     position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #fff;
     padding: 29px 54px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
 
@@ -43,6 +47,11 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+}
+.navbar-scroll{
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 
@@ -83,7 +92,7 @@ img{
     color: var(--primary-color);
     cursor: pointer;
 }
-/* Mobile menu */
+
 /* Mobile Menu */
 .mobile-menu{
     display: none;
@@ -119,7 +128,7 @@ img{
 /* Hero */
 
 .hero {
-    min-height: 100vh;
+    min-height:716.83px ;
     background: url("../Images/hero.jpg") center center/cover no-repeat;
     display: flex;
     align-items: center;
@@ -170,9 +179,53 @@ img{
     font-weight: 700;
     text-transform: uppercase;
 }
-
 .hero__button:hover {
     opacity: 0.9;
+}
+
+/* range */
+ .range {
+    padding: 56px 126px;
+}
+
+.range__container {
+    text-align: center;
+}
+
+.range__title {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.range__title-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+
+    margin-bottom: 62px;
+}
+
+.range__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.range__image img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.range__image-description {
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
 }
 
 @media(max-width:992px){
@@ -208,6 +261,26 @@ img{
 
     .hero__button {
         width: 100%;
+    }
+    /* Range */
+     .range {
+        padding: 40px 15px;
+    }
+
+    .range__images {
+        grid-template-columns: 1fr;
+    }
+
+    .range__title {
+        font-size: 24px;
+    }
+
+    .range__title-description {
+        font-size: 16px;
+    }
+
+    .range__image-description {
+        font-size: 20px;
     }
 }
 @media (max-width: 332px) {
@@ -245,6 +318,7 @@ img{
         height: 56px;
         font-size: 14px;
     }
+    
 }
 
 
