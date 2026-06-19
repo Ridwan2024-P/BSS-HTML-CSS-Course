@@ -489,6 +489,40 @@ img{
 .download_button i{
     margin-right: 0.5rem;
 }
+/* Footer */
+.footer{
+    background-color: var(--tertiary-color);
+    color: #9f9caf;
+    padding: 4rem 2rem;
+    font-size: 0.9rem;
+}
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+.footer__title,.footer__quicklink-title{
+    font-size: bold;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+
+}
+
+.footer__social-icon-items{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.footer__social-icon-items li i{
+  color: #9f9caf;
+}
+.footer__quicklink-items li:hover,.footer__social-icon-items li i:hover{
+   color: #fff;
+   cursor: pointer;
+}
 @media(max-width:992px){
     .hero{
         padding: 10rem;
@@ -583,6 +617,17 @@ img{
         width: 100%;
         padding: 0.7rem;
        
+        text-align: center;
+    }
+    /* Footer */
+    .footer{
+        font-size: 1rem;
+    }
+    .footer__container{
+        
+        grid-template-columns: 1fr;
+        justify-items: center;
+     max-width: 600px;
         text-align: center;
     }
     
