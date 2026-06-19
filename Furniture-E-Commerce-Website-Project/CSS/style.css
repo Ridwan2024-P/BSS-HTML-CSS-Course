@@ -342,6 +342,9 @@ img{
 }
 
 /* Gallery */
+.section__gallery{
+   
+}
 .gallery__container{
         text-align: center;
         align-items: center;
@@ -424,6 +427,104 @@ img{
     grid-row: 5 / 8;
 }
 
+/* Footer */
+.footer{
+   
+    margin:auto;
+    padding:180px 0 30px;
+}
+
+.footer__items{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:70px;
+}
+
+.footer__item h1{
+   
+    margin-bottom:50px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.footer__item h4{
+    color:#9f9f9f;
+    margin-bottom:55px;
+    
+}
+
+.footer__item p{
+    color: rgba(159, 159, 159, 1);
+ line-height: 3;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+   
+}
+
+.footer__item ul{
+    list-style:none;
+}
+
+.footer__item ul li{
+    margin-bottom:46px;
+    font-size:18px;
+    font-weight:500;
+}
+
+.footer form{
+    display:flex;
+    gap:10px;
+}
+
+.footer input{
+    border:none;
+    border-bottom:1px solid black;
+    outline:none;
+    padding-bottom:8px;
+}
+
+.footer button{
+    border:none;
+    background:none;
+    border-bottom:1px solid black;
+    font-weight:600;
+    cursor:pointer;
+}
+.input::placeholder{
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: rgba(159, 159, 159, 1);
+
+}
+
+hr{
+    margin:50px 0px;
+    border: 1px solid rgba(217, 217, 217, 1)
+}
+
+.copyright{
+    font-size:16px;
+    font-weight: 400;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 35px;
+}
+
 @media(max-width:992px){
     .main-menu,.navbar-menu-list-icon{
         display: none;
@@ -456,6 +557,14 @@ img{
     .item5, .item6, .item7, .item8, .item9{
         grid-column: auto !important;
         grid-row: auto !important;
+    }
+    .footer__items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .footer {
+        padding: 100px 20px 30px;
     }
 }
 @media (max-width: 768px) {
@@ -507,6 +616,11 @@ img{
         grid-column: auto !important;
         grid-row: auto !important;
     }
+     .footer__items {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
 }
 @media (max-width: 332px) {
     .hero {
