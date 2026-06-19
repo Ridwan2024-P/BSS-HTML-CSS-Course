@@ -9,7 +9,7 @@
 
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+     font-family: "Poppins", sans-serif;
 }
 
 a{
@@ -21,6 +21,13 @@ ul{
 img{
     width: 100%;
 }
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
 
 /* Navbar */
 .mobile-menu{
@@ -108,10 +115,64 @@ img{
     flex-direction: column;
     gap: 2rem;
 }
-.navbar-menu-item:hover{
-    color: #fff;
-    cursor: pointer;
+
+/* Hero */
+
+.hero {
+    min-height: 100vh;
+    background: url("../Images/hero.jpg") center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    width: 643px;
+    background: #FFF3E3;
+    padding: 56px 43px 43px 39px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 58px;
+}
+
+.hero__subtitle {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.hero__title {
+    font-size: 52px;
     font-weight: 700;
+    line-height: 65px;
+    color: #B88E2F;
+    margin-bottom: 13px;
+}
+
+.hero__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: (51, 51, 51, 1);
+    margin-bottom: 46px;
+}
+
+.hero__button {
+    width: 222px;
+    height: 74px;
+    border: none;
+    cursor: pointer;
+    background: #B88E2F;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero__button:hover {
+    opacity: 0.9;
 }
 
 @media(max-width:992px){
@@ -131,6 +192,58 @@ img{
     .navbar .mobile-menu-toggle{
         display: block;
         padding: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .hero__content {
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .hero__title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .hero__button {
+        width: 100%;
+    }
+}
+@media (max-width: 332px) {
+    .hero {
+        min-height: 100vh;
+        padding: 20px 10px;
+    }
+
+    .hero__content {
+        width: 100%;
+        padding: 20px 15px;
+        margin: 0;
+        border-radius: 6px;
+    }
+
+    .hero__subtitle {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .hero__title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .hero__text {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .hero__button {
+        width: 100%;
+        height: 56px;
+        font-size: 14px;
     }
 }
 
