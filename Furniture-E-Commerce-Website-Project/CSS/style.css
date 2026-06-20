@@ -37,7 +37,7 @@ img{
     top: 0;
     z-index: 1000;
     background: #fff;
-    padding: 29px 54px;
+    padding: 29px 100px 30px 54px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
@@ -476,7 +476,7 @@ img{
 .footer{
    
     margin:auto;
-    padding:180px 0 30px;
+    
 }
 
 .footer__items{
