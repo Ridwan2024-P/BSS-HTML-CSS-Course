@@ -70,9 +70,9 @@ img{
 
 }
 /* Navbar */
-.navbar.navbar-scroll{
+.navbar.navbar--scroll{
     background-color: rgba(38,36,49,0.8);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 
 .navbar{
@@ -510,6 +510,9 @@ img{
     font-size: 1.2rem;
 
 }
+.footer__title{
+    margin-top: -22px;
+}
 
 .footer__social-icon-items{
     display: flex;
@@ -751,6 +754,18 @@ img{
   }
 
 }
-@media(max-width:576px){
-   
+@media(max-width:392px){
+     .footer{
+        font-size: 0.8rem;
+    }
+    .footer__container{
+        
+        grid-template-columns: 1fr;
+        justify-items: center;
+     max-width: 600px;
+        text-align: center;
+    }
+   .footer__social-icon-items{
+    text-align: center;
+   }
 }
