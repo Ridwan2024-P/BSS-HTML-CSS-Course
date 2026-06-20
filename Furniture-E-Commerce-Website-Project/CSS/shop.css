@@ -444,7 +444,36 @@
 
 
 
+/* nav breadcrumb */
+.breadcrumb {
+    background: #FAF4E8;
+    padding: 38px 110px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  .breadcrumb a,
 
+  .breadcrumb span { 
+    font-size: 16px; 
+    text-decoration: none;
+ }
+  .breadcrumb .crumb { 
+    color: #9F9F9F; 
+    width: 20px;
+    height: 20px;
+}
+  .breadcrumb .chevron { 
+    color: #000; 
+    font-size: 16px;
+ }
+  .breadcrumb .divider {
+    border: 2px solid rgba(159, 159, 159, 1);
+    margin: 0 14px;
+  }
+  .breadcrumb .current {
+    color: rgba(0, 0, 0, 1);
+ }
 
 
 
@@ -492,6 +521,15 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
+    }
+     .breadcrumb {
+        padding: 25px 20px;
+        gap: 12px;
+    }
+
+    .breadcrumb a,
+    .breadcrumb span {
+        font-size: 15px;
     }
 }
 @media (max-width: 768px){
@@ -570,6 +608,16 @@
     .btn {
         width: 100%;
         justify-content: center;
+    }
+     .breadcrumb {
+        padding: 18px 15px;
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .breadcrumb .divider {
+        margin: 0 6px;
+        border-width: 1px;
     }
 }
 
