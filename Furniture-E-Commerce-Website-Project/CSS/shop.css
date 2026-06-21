@@ -35,13 +35,18 @@
 }
 
 /* toolbar */
+.toolbars{
+      background:#f5f1ea;
+  
+}
 
 .toolbar{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#f5f1ea;
-    padding: 35px 98px
+  
+    padding: 35px 98px;
+    max-width: 1440px;
 }
 
 .left-section{
@@ -151,21 +156,27 @@
 /* Features */
 .features{
     background: #FAF3EA;
-    padding: 100px 53px;
+  
     margin-top: 26px;
+    
 }
 
 .features__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+     width: 100%;
+    max-width: 1440px;
+    max-height: 270px;
+    margin: 0 auto;
+    padding: 100px 54px;
    
 }
 
 .feature{
     display: flex;
     align-items: center;
-    min-width: 337px;
+   
 }
 
 .feature img{
@@ -192,7 +203,7 @@
 /* Single Page */
 .product_container{
     text-align: center;
-    padding: 46px 0 0;
+   
 }
 
 .product_description-title{
@@ -533,6 +544,58 @@
     }
 }
 @media (max-width: 768px){
+     .toolbar{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .left-section{
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .right-section{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .show-box,
+    .sort-box{
+        width: 100%;
+    }
+
+    .show-box input{
+        width: 55px;
+        height: 55px;
+    }
+
+    .sort-box select{
+        width: 100%;
+    }
+
+    .divider{
+        display: none;
+    }
+
+    .filter-btn,
+    .view-icons{
+        font-size: 18px;
+    }
+
+    .result-text{
+        font-size: 14px;
+    }
+
+    .show-box span,
+    .sort-box span{
+        font-size: 16px;
+    }
 
     .product_container{
         padding: 10px 15px 0;
@@ -623,17 +686,35 @@
 
 @media (max-width: 576px){
     .features{
-        padding: 10px 20px;
+        margin-top: 26px;
     }
 
     .features__container{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
         gap: 20px;
+        padding: 20px;
     }
 
     .feature{
         justify-content: flex-start;
+    }
+    .feature img{
+    width: 40px;
+    height: 40px;
+}
+    .feature h3{
+        font-size: 18px;
+    }
+    .feature p{
+        font-size: 12px;
+    }
+
+    .product_container{
+        padding: 0px;
+    }
+    .product__Cards{
+        padding: 20px
     }
     .product_description-title h1{
         font-size: 18px;

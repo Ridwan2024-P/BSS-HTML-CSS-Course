@@ -24,7 +24,7 @@ img{
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 40px;
+    
 }
 
 
@@ -48,6 +48,9 @@ img{
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    padding: 29px 100px 30px 54px ;
+    max-width: 1286;
+    max-height: 41px;
 }
 .navbar-scroll{
     background: #fff;
@@ -251,6 +254,7 @@ img{
         display: grid;
         grid-template-columns: repeat(4,1fr);
         gap: 32px;
+        padding: 100px;
        
 
     }
@@ -483,6 +487,7 @@ img{
     display:grid;
     grid-template-columns: repeat(4,1fr);
     gap:70px;
+    padding: 100px 54px 38px 100px;
 }
 
 .footer__item h1{
@@ -662,8 +667,9 @@ hr{
         grid-row: auto !important;
     }
      .footer__items {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 2fr);
         gap: 40px;
+        padding: 0px;
     }
 
 }
