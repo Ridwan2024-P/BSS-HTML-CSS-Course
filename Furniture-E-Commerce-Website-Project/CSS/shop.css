@@ -16,6 +16,11 @@
     text-align: center;
     gap: 10px;
 }
+.hero__content-shop img{
+                    width: 77px;
+                    margin-top: 61px;
+                  
+                }
 
 .hero__content-shop h1{
     font-family: Poppins;
