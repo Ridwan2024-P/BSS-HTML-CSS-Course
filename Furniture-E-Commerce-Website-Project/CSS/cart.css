@@ -1,0 +1,131 @@
+ .card_order{
+    padding: 72px 15px;
+}
+
+.card_order-container{
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.table-wrapper{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.cart-table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+.cart-table thead{
+    background: #f9f1e7;
+}
+
+.cart-table th{
+    padding: 16px;
+    font-weight: 500;
+}
+
+.cart-table td{
+    padding: 20px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.product-info img{
+    width: 90px;
+    height: 90px;
+    background: #f9f1e7;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cart-table input{
+    width: 40px;
+    height: 35px;
+    border: 1px solid rgba(159, 159, 159, 1);
+    text-align: center;
+}
+
+.card_total{
+    width: 100%;
+    max-width: 390px;
+    background: #f9f1e7;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card_total h1{
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.card_total-items,
+.card_total-item-price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.card_total-item-price p{
+    color: rgba(184, 142, 47, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card_total button{
+    margin-top: 30px;
+    padding: 12px 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.card_total button:hover{
+    background: rgba(184, 142, 47, 1);
+    color: #fff;
+}
+
+.icon-product i{
+    color: rgba(184, 142, 47, 1);
+}
+@media (max-width: 992px){
+    .card_order-container{
+        grid-template-columns: 1fr;
+    }
+
+    .card_total{
+        max-width: 100%;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 600px){
+    .cart-table{
+        min-width: 500px;
+    }
+
+    .product-info img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .card_total h1{
+        font-size: 22px;
+    }
+}
