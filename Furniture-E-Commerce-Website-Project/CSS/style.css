@@ -614,6 +614,9 @@ hr{
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+    .add-cart{
+        max-width: 140px;
+    }
     .gallery{
         grid-template-columns: repeat(6, 1fr);
         grid-auto-rows: 120px;
@@ -632,6 +635,9 @@ hr{
 
     .footer {
         padding: 100px 20px 30px;
+    }
+    .copyright {
+        text-align: center;
     }
 }
 @media (max-width: 768px) {
@@ -669,6 +675,10 @@ hr{
     .range__image-description {
         font-size: 20px;
     }
+    .overlay-actions{
+    font-size: 10px;
+    
+}
     .gallery{
         grid-template-columns: repeat(2,1fr);
     }
@@ -683,10 +693,12 @@ hr{
         grid-column: auto !important;
         grid-row: auto !important;
     }
+    
      .footer__items {
         grid-template-columns: repeat(1, 2fr);
         gap: 40px;
-        padding: 0px;
+        padding: 20px 20px;
+        margin-top: -60px;
     }
 
 }
