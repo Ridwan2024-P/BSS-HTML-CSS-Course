@@ -89,12 +89,6 @@
         </div>
     </div>
   </section>
-  <style>
-    .section-form-container{
-        display: grid;
-        grid-template-columns: repeat(2 ,1fr);
-    }
-  </style>
 
   <!-- Contace form -->
   <section class="section-form">
@@ -104,14 +98,14 @@
         </div>
          <form action="">
             <label for="yourname">Your Name</label><br>
-             <input type="text" name="name" id="name" required> <br>
+             <input type="text" name="name" id="name" placeholder="Abc" required> <br>
              <label for="email">Email</label><br>
-             <input type="email" name="email" id="email" required><br>
+             <input type="email" name="email" id="email" placeholder="Abc@def.com" required><br>
               <label for="subject">Subject</label><br>
-              <input type="text" name="subject" id="subject" required><br>
-              <label for="message">Message</label>
-              <textarea name="message" id="message"></textarea>
-              <input type="submit">
+              <input type="text" name="subject" id="subject" placeholder="This is an optional" required><br>
+              <label for="message">Message</label><br>
+              <textarea name="message" id="message" placeholder="Hi!i'd like to ask about"></textarea><br>
+             <button type="Submit" class="contact-form-button"> Submit</button>
          </form>
     </div>
   </section>

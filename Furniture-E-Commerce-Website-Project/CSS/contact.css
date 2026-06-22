@@ -24,3 +24,47 @@
         margin-bottom: 14PX;
 
     }
+
+    /* Form contact */
+    .section-form{
+        margin-top: 14px;
+    }
+    .section-form-container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        margin-top: 109px;
+    }
+    .section-form-container label{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(0, 0, 0, 1);
+    }
+    .section-form-container input,textarea{
+        
+        border: 1px solid rgba(159, 159, 159, 1);
+        width: 528.75px;
+        height: 75px;
+        border-radius: 10px;
+      margin: 22px auto;
+       padding: 26px 30px;
+       font-weight: 400;
+    font-size: 16px;
+    color: rgba(159, 159, 159, 1);
+    }
+    .contact-form-button{
+        width: 237px;
+        height: 55px;
+        border: 1px solid rgba(184, 142, 47, 1);
+        background:  rgba(184, 142, 47, 1);
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 63px;
+    }
+     .contact-form-button:hover{
+        background: #fff;
+        color: rgba(184, 142, 47, 1);
+        cursor: pointer;
+     }
