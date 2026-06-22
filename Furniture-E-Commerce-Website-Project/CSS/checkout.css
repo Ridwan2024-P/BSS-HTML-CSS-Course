@@ -24,7 +24,7 @@
     color: rgba(0, 0, 0, 1);
             }
 .billing_details input,
-.billing_details select,.billing_details ::placeholder,#country,#province{
+.billing_details select,#country,#province{
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(159, 159, 159, 1);
     border-radius: 10px;
@@ -216,7 +216,54 @@ height: 75px;
     }
 
 @media (max-width: 992px){
+    
+    .billing_items{
+    margin:15px  26px 22px 25px ;
+}
     .billing_items{
  display: grid;
-grid-template-columns: 1fr; }
+grid-template-columns: 1fr; 
+}
+.billing_summary{
+    max-width: 400px;
+}
+}
+
+@media (max-width: 576px){
+   .billing_items{
+    margin:15px 35px ;
+    overflow: hidden;
+}
+.name_fields{
+     display: block;
+     
+}
+.name_fields input{
+width: 15px;
+height: 55px;
+}
+.billing_details input,
+.billing_details select,#country,#province{
+    height: 75px;
+    width: 300px;
+    
+
+ }.place_order{
+    font-size: 16px;
+ }
+ .billing_summary{
+    max-width: 300px;
+}
+.payment .info{
+    
+       max-width: 300px;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: justify;
+        margin-top: 22px;
+        line-height: 1.2;
+
+    }
+
 }
