@@ -1,0 +1,104 @@
+.section_blog_container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 105px;
+        padding: 0px 150px;
+        gap: 30;
+       
+    }
+    .section_blog_left{
+        max-width: 817px;
+    }
+    .section_blog_left img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+    }
+    .section_blog_icon{
+        display: flex;
+        gap: 35px;
+       
+
+    }
+    .section_blog_icon a{
+        color: rgba(159, 159, 159, 1);
+        font-size: 16px;
+        font-weight: 400;
+        
+    }
+    .section_blog_icon i{
+        padding: 0px 7px 0px 0px;
+    }
+    .section_blog_left_item h1{
+        font-size: 30px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 1);
+    }
+    .section_blog_left_item  P{     
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 817px;
+    color: rgba(159, 159, 159, 1);
+    margin-bottom: 30px;
+
+    }
+    .more-text{
+        display: none;
+    }
+    .toggle{
+        display: none;
+    }
+
+    .toggle:checked ~ .more-text{
+        display: inline;
+    }
+    .read-more::after{
+        content: "Read more";
+        color: rgba(0, 0, 0, 1);
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 16px;
+        font-weight: 400;
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+        
+    }
+    .toggle:checked ~ .read-more::after{
+        content: "Read less";
+    }
+
+
+
+     .section_blog_right{
+        max-width: 393px;
+        margin: 0 auto;
+                    
+    }
+    .section_blog_right_catergories_search{
+        border: 1px solid rgba(159, 159, 159, 1);
+        border-radius: 10px;
+        width: 311px;
+        height: 58px;
+        text-align: center;
+                   
+    }
+    .section_blog_right_catergories_search input{
+            height: 55px;
+            border: none;
+            width: 90%;
+    }
+    .section_blog_right_catergories_info{
+        padding: 43px 27px 61px 27px ;
+                    
+    }
+    .section_blog_right_catergories_info h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .section_blog_right_catergories_info-crafts,.section_blog_right_catergories_info-design,.section_blog_right_catergories_info-handmade
+    ,.section_blog_right_catergories_info-interior,.section_blog_right_catergories_info-Wood{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 41px;
+        color: rgba(159, 159, 159, 1);
+
+    }

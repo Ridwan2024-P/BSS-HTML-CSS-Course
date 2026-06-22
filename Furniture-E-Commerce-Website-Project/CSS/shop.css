@@ -1,9 +1,12 @@
 .hero-shop{
     min-height: 316px;
-    background: url("../Images/1461f3d6ff74c027a1888544144abe4be6e02cbf.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(203, 203, 203, 0.6), rgba(247, 245, 245, 0.6)), url("../Images/1461f3d6ff74c027a1888544144abe4be6e02cbf.jpg") center/cover no-repeat;
+
+    background-image: fi;
     display: flex;
     align-items: center;
     padding: 20px;
+    
 }
 
 .hero-container{
@@ -499,10 +502,9 @@ color: rgba(0, 0, 0, 1);
     font-size: 16px; 
     text-decoration: none;
  }
-  .breadcrumb .crumb { 
-    color: #9F9F9F; 
-    width: 20px;
-    height: 20px;
+  .breadcrumb .crumb {
+    color: #9F9F9F;
+    text-decoration: none;
 }
 .breadcrumb .crumb:hover{
     color: rgba(184, 142, 47, 1);
