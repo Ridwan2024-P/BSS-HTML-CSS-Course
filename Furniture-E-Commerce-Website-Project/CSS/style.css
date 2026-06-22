@@ -13,6 +13,10 @@ body{
 
 a{
     text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+a:hover{
+    color: var(--primary-color);
 }
 ul{
     list-style: none;
@@ -90,8 +94,20 @@ img{
     gap: 45px;
     margin-right: 2.875rem;
 }
-.navbar-menu-item:hover,
-.navbar-menu-item-icon img:hover{
+.navbar-menu-item a{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+.navbar-menu-list-icon i{
+    color: rgba(0, 0, 0, 1);
+    width: 28px;
+    height: 28px;
+
+
+}
+.navbar-menu-item a:hover,
+.navbar-menu-item-icon i:hover{
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -529,6 +545,7 @@ img{
     margin-bottom:46px;
     font-size:18px;
     font-weight:500;
+    color: rgba(0, 0,0, 1);
 }
 
 .footer form{
