@@ -62,7 +62,7 @@ color: rgba(0, 0, 0, 1);
 
 }
 .hero__content-shop-icone-home:hover,.hero__content-shop-icone-shop:hover{
-    color: rgba(184, 142, 47, 1);
+    color: rgb(236, 231, 221);
 }
 /* toolbar */
 .toolbars{

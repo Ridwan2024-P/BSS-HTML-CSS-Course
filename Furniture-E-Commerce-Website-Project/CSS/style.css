@@ -11,7 +11,7 @@ html{
     overflow-y: scroll;
 }
 body{
-     font-family: "Poppins", sans-serif;
+     font-family: 'Arial' sans-serif;
 }
 
 a{
@@ -314,23 +314,20 @@ img{
 
 }
 .Product__content p{
-    font-family: Poppins;
+   
     font-weight: 500;
     font-size: 16px;
-    leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 0%;
-    text-align: start;
     color:rgba(137, 137, 137, 1);
     gap: 8px;
+    margin-top: 8px;
 
 }
-.price.new-price{
-    color: rgba(58, 58, 58, 1);
-    font-family: Poppins;
+.new-price{
+    color: rgba(0, 0, 0, 1);
     font-weight: 600;
     font-size: 20px;
-    leading-trim: NONE;
     line-height: 150%;
     letter-spacing: 0%;
     text-align: start;
@@ -339,9 +336,9 @@ img{
 
 .old-price{
     color: rgba(176, 176, 176, 1);
-
     font-size:16px;
     text-decoration:line-through;
+margin-left: 8px;
     
 }
 .product__button{
@@ -525,13 +522,9 @@ img{
 
 .footer__item p{
     color: rgba(159, 159, 159, 1);
- line-height: 3;
-    font-family: Poppins;
+    line-height: 1.6;
     font-weight: 400;
-    font-style: Regular;
     font-size: 16px;
-    leading-trim: NONE;
-    line-height: 100%;
     letter-spacing: 0%;
    
 }
@@ -588,7 +581,7 @@ hr{
     font-weight: 400;
     line-height: 100%;
     color: rgba(0, 0, 0, 1);
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 @media(max-width:992px){
@@ -624,8 +617,8 @@ hr{
         max-width: 140px;
     }
     .gallery{
-        grid-template-columns: repeat(6, 1fr);
-        grid-auto-rows: 120px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
         max-height: none;
     }
 
@@ -685,12 +678,10 @@ hr{
     font-size: 10px;
     
 }
-    .gallery{
-        grid-template-columns: repeat(2,1fr);
-    }
+   
     .gallery{
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: 120px;
+       
         max-height: none;
     }
 
