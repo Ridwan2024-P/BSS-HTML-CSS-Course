@@ -89,8 +89,32 @@
         </div>
     </div>
   </section>
+  <style>
+    .section-form-container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
+  </style>
 
-  <!-- Contace -->
+  <!-- Contace form -->
+  <section class="section-form">
+    <div class="section-form-container">
+        <div class="contact-form-info">
+
+        </div>
+         <form action="">
+            <label for="yourname">Your Name</label><br>
+             <input type="text" name="name" id="name" required> <br>
+             <label for="email">Email</label><br>
+             <input type="email" name="email" id="email" required><br>
+              <label for="subject">Subject</label><br>
+              <input type="text" name="subject" id="subject" required><br>
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+              <input type="submit">
+         </form>
+    </div>
+  </section>
 
 
 
