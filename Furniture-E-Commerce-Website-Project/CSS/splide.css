@@ -6,14 +6,15 @@
     }
     .rooms_inspiration_container{
         height: 670px;
-        align-items: center;
+       
         display: grid;
         grid-template-columns: repeat(3,1fr);
        padding: 0px 0px 0px 100px;
        gap: 42px;
     }
+   
     .rooms_inspiration-info h1{
-    
+    padding: 203px 0px 0px;
         font-weight: 700;
         font-size: 40px;
   
@@ -47,6 +48,7 @@
         width:404px ;
         height: 582px;
         position: relative;
+        margin-top: 44px;
 
      }
      .rooms_inspiration-info-image-under{
@@ -89,10 +91,13 @@
         display: flex;
         padding: 32px 43px 8px 32px;
      }
+     .rooms_inspiration-info-image2{
+        margin-top: 44px;
+     }
        .splide__slide {
     width: 372px;
     height: 486px;
-    margin-top: -20px;
+    
 }
 
 
@@ -119,6 +124,7 @@
     .rooms_inspiration-info h1 {
         font-size: 26px;
         text-align: left;
+        padding: 10px;
     }
 
     .rooms_inspiration-info p {
@@ -135,6 +141,9 @@
         max-width: 100%;
         height: 400px;
     }
+    .rooms_inspiration-info-image2{
+        margin-top: 10px;
+     }
 
   
     .splide {
