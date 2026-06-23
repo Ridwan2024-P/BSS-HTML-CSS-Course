@@ -102,3 +102,42 @@
         color: rgba(159, 159, 159, 1);
 
     }
+    .section_blog_right_catergories_recent-post{
+        padding: 43px 27px 61px 27px ;
+    }
+    .recent-post-tittle{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(0, 0, 0, 1);
+        margin-bottom: 26px;
+    }
+    .recent-post-item{
+        display: flex;
+        gap: 12px;
+    }
+    .recent-post-item img{
+         max-width: 80px;
+        max-height: 80px;
+        border-radius: 10px;
+        margin-bottom: 39px;
+    }
+    .recent-post-item-details h4{
+        max-width: 119px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(0, 0, 0, 1);
+        margin-bottom: 5px;
+    }
+    .recent-post-item-details p{
+        max-width: 119px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(159, 159, 159, 1);
+        margin-bottom: 5px;
+    }

@@ -115,14 +115,16 @@
         margin-top: 30px;
     }
 }
-@media (max-width: 600px){
+@media (max-width: 576px){
+   
     .cart-table{
-        min-width: 500px;
+        min-width: 300px;
+        
     }
 
     .product-info img{
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
     }
 
     .card_total h1{
