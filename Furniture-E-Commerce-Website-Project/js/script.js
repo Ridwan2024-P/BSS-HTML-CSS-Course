@@ -13,3 +13,27 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// 
+document.addEventListener("DOMContentLoaded", function () {
+
+    const cartBtn = document.querySelector(".cart-toggle");
+    const sidebar = document.querySelector(".section-cart-sidebar");
+    const overlay = document.querySelector(".overlay");
+    const closeBtn = document.querySelector(".close-cart");
+
+    function openCart(){
+        sidebar.classList.add("active");
+        overlay.classList.add("active");
+    }
+
+    function closeCart(){
+        sidebar.classList.remove("active");
+        overlay.classList.remove("active");
+    }
+
+    cartBtn.addEventListener("click", openCart);
+    closeBtn.addEventListener("click", closeCart);
+    overlay.addEventListener("click", closeCart);
+
+});
