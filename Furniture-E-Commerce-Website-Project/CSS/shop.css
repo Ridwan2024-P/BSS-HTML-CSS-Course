@@ -280,6 +280,9 @@ color: rgba(0, 0, 0, 1);
     border-radius: 10px;
     background: #F9F1E7;
 }
+.product__button{
+        gap: 38px;
+    }
 
 /* Page */
 
@@ -697,6 +700,7 @@ color: rgba(0, 0, 0, 1);
         width: 100%;
         max-width: 100%;
     }
+    
     .page {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -775,6 +779,9 @@ color: rgba(0, 0, 0, 1);
 
     .product_description-image img{
         border-radius: 8px;
+    }
+    .product__button{
+        gap: 10px;
     }
     .main-image {
         height: 250px;
