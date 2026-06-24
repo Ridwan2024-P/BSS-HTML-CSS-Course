@@ -28,7 +28,7 @@
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(159, 159, 159, 1);
     border-radius: 10px;
-    height: 75px;
+    height: 55px;
     width: 453px;
     margin-top: 22px;
     margin-bottom: 36px;
@@ -52,7 +52,7 @@ grid-template-columns: repeat(2,1fr); }
 
 .name_fields input{
 width: 211px;
-height: 75px;
+height: 55px;
 }
 .billing_cart-header,.billing_cart-item,.billing_cart-total,.billing_cart-subtotal{
         display:flex ;
@@ -72,8 +72,8 @@ height: 75px;
                    
 }
 .billing_cart-item span{                
-     font-weight: 300;
-     color: rgba(159, 159, 159, 1);;
+     font-weight: 600;
+    
      font-size: 16px;          
      line-height: 100%;            
      margin-bottom: 22px;                 

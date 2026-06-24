@@ -139,8 +139,8 @@ color: rgba(0, 0, 0, 1);
 }
 
 .show-box input{
-    width:55;
-    height:55px;
+    width:45;
+    height:45px;
     border:none;
     background:#fff;
     text-align:center;
@@ -150,7 +150,7 @@ color: rgba(0, 0, 0, 1);
 
 .sort-box select{
     width:188px;
-    height:55px;
+    height:45px;
     border:none;
     background:#fff;
     padding:0 20px;
@@ -208,6 +208,7 @@ color: rgba(0, 0, 0, 1);
 .feature{
     display: flex;
     align-items: center;
+    gap: 15px;
    
 }
 

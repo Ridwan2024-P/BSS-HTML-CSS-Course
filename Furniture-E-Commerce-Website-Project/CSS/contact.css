@@ -44,13 +44,14 @@
 
     }
     .contact-form-info-address-icon i{
-        margin-top: 46.12;
+        margin-top: 9px;
         width: 22px;
         height: 17.59;
     }
     .contact-form-info-address-icon h4{
         font-size: 24px;
         font-weight: 500;
+        margin-top: 0px;
        
     }
      .contact-form-info-address-icon p{
@@ -81,17 +82,28 @@
         letter-spacing: 0%;
         color: rgba(0, 0, 0, 1);
     }
-    .section-form-container input,textarea{
+    .section-form-container input{
+        
+        border: 1px solid rgba(159, 159, 159, 1);
+        width: 528.75px;
+        height: 55px;
+        border-radius: 10px;
+        margin: 22px auto;
+        padding: 26px 30px;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(159, 159, 159, 1);
+    }.section-form-container textarea{
         
         border: 1px solid rgba(159, 159, 159, 1);
         width: 528.75px;
         height: 75px;
         border-radius: 10px;
-      margin: 22px auto;
-       padding: 26px 30px;
-       font-weight: 400;
-    font-size: 16px;
-    color: rgba(159, 159, 159, 1);
+        margin: 22px auto;
+        padding: 26px 30px;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(159, 159, 159, 1);
     }
     .contact-form-button{
         width: 237px;
@@ -102,6 +114,7 @@
         font-size: 16px;
         font-weight: 400;
         margin-bottom: 63px;
+        border-radius: 10px;
     }
      .contact-form-button:hover{
         background: #fff;

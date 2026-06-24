@@ -88,43 +88,43 @@
                 <h1>Billing Details</h1>
             <div class="name_fields">
                 <div>
-                    <label for="firstname">First Name</label><br>
+                    <label for="firstname">First Name *</label><br>
                     <input type="text" name="firstname" id="firstname" required>
                 </div>
                 <div>
-                    <label for="lastname">Last Name</label><br>
+                    <label for="lastname">Last Name *</label><br>
                     <input type="text" name="lastname" id="lastname" required>
                 </div>
             </div>
-                 <label for="companyname">Company Name (Optional)</label><br>
+                 <label for="companyname">Company Name (Optional) *</label><br>
                  <input type="text" name="companyname" id="companyid" required><br>
-                 <label for="country">Country / Region</label><br>
+                 <label for="country">Country / Region *</label><br>
                  <select name="country" id="country">
                     <option value="SriLanka" selected> SriLanka</option>
                     <option value="Bangladesh">Bangladesh</option>
                     <option value="India">India</option>
                     <option value="Brazil">Brazil</option>
                  </select><br>
-                 <label for="street">Street address</label><br>
+                 <label for="street">Street address *</label><br>
                  <input type="text" name="street" id="street" required><br>
-                 <label for="city">City</label><br>
+                 <label for="city">City *</label><br>
                  <input type="text" name="city" id="city" required><br>
-                 <label for="Province">Province</label><br>
+                 <label for="Province">Province *</label><br>
                  <input type="text" name="province"><br>
-                 <label for="province">Province</label><br>
+                 <label for="province">Province *</label><br>
                  <select name="province" id="province">
                  <option value="Wester Province" selected> Wester Province</option>
                  <option value="South Province">South Province</option>
                  <option value="North Province">North Province</option>
                  <option value="East Province">East Province</option>
                  </select><br>
-                 <label for="zip">ZIP code</label><br>
+                 <label for="zip">ZIP code *</label><br>
                  <input type="number" name="zip" id="zip" required><br>
-                 <label for="phone">Phone</label><br>
+                 <label for="phone">Phone *</label><br>
                  <input type="number" name="phone" id="phone" required><br>
-                 <label for="email">Email address</label><br>
+                 <label for="email">Email address *</label><br>
                  <input type="email" name="email" id="email"><br>
-                 <input type="text" name="text" id="text" placeholder="Additional information" required>
+                 <input type="text" name="text" id="text" placeholder="Additional information">
 
 
             </div>
@@ -136,20 +136,23 @@
             </div>
             <div class="billing_cart-item">
                 <h4><span>Asgaard sofa </span>X 1</h4>
-                <p>Rs. 250,000.00</p>
+                <p>৳. 250,000.00</p>
             </div>
             <div class="billing_cart-subtotal">
                 <h4>Subtotal</h4>
-                <p>Rs. 250,000.00</p>
+                <p>৳. 250,000.00</p>
             </div>
             <div class="billing_cart-total">
                 <h4>Total</h4>
-                <p>Rs. 250,000.00</p>
+                <p>৳. 250,000.00</p>
             </div>
+            <script>
+
+</script>
             <hr>
               <div class="payment">
                     <!-- 1 -->
-                    <input type="radio" name="payment" id="bank">
+                    <input type="radio" name="payment" id="bank" onclick="toggleRadio(this) ">
                     <label for="bank">Direct Bank Transfer</label><br>
 
                     <p class="text bank-text">
@@ -157,7 +160,7 @@
                     </p>
 
                     <!-- 2 -->
-                    <input type="radio" name="payment" id="cod">
+                    <input type="radio" name="payment" id="cod" onclick="toggleRadio(this) ">
                     <label for="cod">Direct Bank Transfer</label><br>
 
                     <p class="text cod-text">
@@ -165,7 +168,7 @@
                     </p>
 
                     <!-- 3 -->
-                    <input type="radio" name="payment" id="card">
+                    <input type="radio" name="payment" id="card" onclick="toggleRadio(this) ">
                     <label for="card">Cash On Delivery </label>
 
                     <p class="text card-text">

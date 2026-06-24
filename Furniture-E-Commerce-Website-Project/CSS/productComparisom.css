@@ -6,6 +6,7 @@
     .product-comparison-container-bottom-items{
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        align-items: start;
       
     }
     .product-comparison-container-bottom-item{
@@ -60,8 +61,9 @@
     .product-comparison-container-up{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        padding: 34px;
+       
         height: 386px;
+        align-items: start;
     }
     .product-comparison-container-up-go-to h3{
         max-width: 223px;
@@ -224,7 +226,7 @@ color: rgba(255, 255, 255, 1);
     .product-comparison-container-bottom-item-3 li{
         font-size: 15px;
         padding: 10px 0;
-        text-align: center;
+        text-align: start
     }
 
     .product-comparison-container-bottom-item-2,

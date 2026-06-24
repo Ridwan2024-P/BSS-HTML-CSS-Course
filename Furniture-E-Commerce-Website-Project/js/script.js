@@ -37,3 +37,18 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.addEventListener("click", closeCart);
 
 });
+
+
+//radio button checkout page
+ function toggleRadio(radio) {
+    if (radio.dataset.checked === "true") {
+      radio.checked = false;
+      radio.dataset.checked = "false";
+    } else {
+      
+      const group = document.querySelectorAll(`input[name="${radio.name}"]`);
+      group.forEach(el => el.dataset.checked = "false");
+      
+      radio.dataset.checked = "true";
+    }
+  }
