@@ -11,15 +11,12 @@
     align-items: start;
 }
 
-.table-wrapper{
-    width: 100%;
-    overflow-x: auto;
-}
+
 
 .cart-table{
     width: 100%;
     border-collapse: collapse;
-    min-width: 600px;
+   
 }
 
 .cart-table thead{
@@ -118,7 +115,7 @@
 @media (max-width: 576px){
    
     .cart-table{
-        min-width: 300px;
+        min-width: 250px;
         
     }
 
@@ -130,4 +127,13 @@
     .card_total h1{
         font-size: 22px;
     }
+    .cart-table th{
+    padding:5px 2px;
+    font-size:9px;
+}
+
+.cart-table td{
+    padding:5px 2px;
+    font-size:9px;
+}
 }
