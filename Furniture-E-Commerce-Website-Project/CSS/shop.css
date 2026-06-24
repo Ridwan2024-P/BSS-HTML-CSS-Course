@@ -533,6 +533,7 @@ color: rgba(0, 0, 0, 1);
   }
     .features{
         margin-top: 26px;
+       
     }
 
     .features__container{
@@ -543,7 +544,7 @@ color: rgba(0, 0, 0, 1);
     }
 
     .feature{
-        justify-content: flex-start;
+        justify-content: flex-start; gap: 20px;
     }
     .feature img{
     width: 40px;
