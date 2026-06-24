@@ -373,7 +373,7 @@
                     <div class="rooms_inspiration-info-image-under">
                         <div class="rooms_inspiration-info-image-under-text">
                             <p>01</p>
-                             <p >  ---- </p>                            
+                                      <span style="width:27px;height:1px;background:black; margin:10px 8px"></span>              
                               <p>Bed Room</p>
                         </div>
                         <h1>Inner Peace</h1>
@@ -433,11 +433,11 @@
 
 .splide__pagination {
     position: absolute;
-    bottom: -25px;
-    left: 40px;
+    bottom: -70px;
+    left: 80px;
     transform: translateX(-50%);
     display: flex;
-    gap: 6px;
+    gap: 20px;
     margin: 0;
     padding: 0;
    
@@ -451,13 +451,29 @@
     border-radius: 50%;
     opacity: 1;
     transition: 0.3s;
+    width: 11px;
+    height: 11px;
 }
 
 
 .splide__pagination__page.is-active {
     background: rgba(184, 142, 47, 1);
-    transform: scale(1.3);
-}</style>
+    position: relative;
+}
+
+.splide__pagination__page.is-active::after {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    width: 27px;
+    height: 27px;
+    border: 1px solid rgba(184, 142, 47, 1);
+    border-radius: 50%;
+}
+
+
+</style>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
