@@ -73,6 +73,7 @@ img{
 .navbar-logo img{
     width: 38px;
     height: auto;
+    margin-top: 3px;
 }
 
 .navbar-logo h1{
@@ -496,8 +497,11 @@ margin-left: 8px;
 .footer{
    
     margin:auto;
-    padding: 180px 0px 30px;
+    padding: 0px 0px 30px;
     
+}
+.footer-home-about{
+    padding: 180px 0px 30px;
 }
 
 .footer__items{
@@ -591,6 +595,7 @@ hr{
 }
 
 @media(max-width:992px){
+    
      .main-menu,
     .main-menu-left{
         display: none;
@@ -714,6 +719,9 @@ hr{
         gap: 40px;
         padding: 20px 20px;
         margin-top: -60px;
+    }
+     .footer {
+        padding: 70px 20px 30px;
     }
 
 }

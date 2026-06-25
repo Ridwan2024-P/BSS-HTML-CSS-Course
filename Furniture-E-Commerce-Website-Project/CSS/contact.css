@@ -128,14 +128,23 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+           
         }
         .contact-form-info{
             text-align: center;
             align-items: center;
         }
         .section-form-container input,textarea{
-            width: 90%;
+            width: 80%;
         }
+        .section-form-container textarea{
+            width: 80%;
+        }
+         .contact-form-button{
+            max-width: 340px;
+            
+            
+         }
          .contact-form-info{
             margin: 0 auto;
         }
