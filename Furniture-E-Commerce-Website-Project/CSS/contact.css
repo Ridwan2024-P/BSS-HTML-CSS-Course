@@ -127,22 +127,19 @@
             margin-top: 19px;
             align-items: center;
             justify-content: center;
-            text-align: center;
+            text-align: start;
+            padding: 20px;
            
         }
-        .contact-form-info{
-            text-align: center;
-            align-items: center;
-        }
+        
         .section-form-container input,textarea{
-            width: 80%;
+            width: 100%;
         }
         .section-form-container textarea{
-            width: 80%;
+            width: 100%;
         }
          .contact-form-button{
-            max-width: 340px;
-            
+           margin: 0 auto;
             
          }
          .contact-form-info{
