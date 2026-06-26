@@ -74,6 +74,7 @@
         grid-template-columns: repeat(2 ,1fr);
         margin-top: 109px;
         height: auto;
+         padding: 20px;
     }
     .section-form-container label{
         font-weight: 500;
@@ -121,6 +122,28 @@
         color: rgba(184, 142, 47, 1);
         cursor: pointer;
      }
+     @media (max-width: 992px){
+        .section-form-container{
+           
+            margin-top: 19px;
+            align-items: center;
+            justify-content: center;
+            text-align: start;
+           
+           
+        }
+        
+        .section-form-container input,textarea{
+            width: 90%;
+        }
+        .section-form-container textarea{
+            width: 90%;
+        }
+         .contact-form-button{
+           margin: 0 auto;
+            
+         }
+    }
      @media (max-width: 764px){
         .section-form-container{
             grid-template-columns: 1fr;
@@ -128,15 +151,28 @@
             align-items: center;
             justify-content: center;
             text-align: start;
-            padding: 20px;
+            position: relative;
+           
            
         }
         
+        .section-form-container label{
+        font-weight: 500;
+        font-size: 16px;
+        
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(0, 0, 0, 1);
+    }
+        
+        
         .section-form-container input,textarea{
             width: 100%;
+             margin: 12px auto;
         }
         .section-form-container textarea{
             width: 100%;
+             margin: 12px auto;
         }
          .contact-form-button{
            margin: 0 auto;

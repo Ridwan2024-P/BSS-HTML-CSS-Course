@@ -535,6 +535,7 @@ color: rgba(0, 0, 0, 1);
     padding:0px 20px ;
     margin: 0 auto;
   }
+   
     .features{
         margin-top: 26px;
        
@@ -613,10 +614,11 @@ color: rgba(0, 0, 0, 1);
 }
 @media (max-width: 768px){
      .toolbar{
-        flex-direction: column;
+       display: grid;
+       grid-template-columns: 1fr;
         gap: 20px;
         padding: 20px;
-        align-items: flex-start;
+       
     }
 
     .left-section{
@@ -628,9 +630,8 @@ color: rgba(0, 0, 0, 1);
 
     .right-section{
         width: 100%;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
+        
+        
     }
 
     .show-box,
@@ -761,6 +762,12 @@ color: rgba(0, 0, 0, 1);
 }
 
 @media (max-width: 576px){
+     .right-section{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
     
 
     .product_container{
